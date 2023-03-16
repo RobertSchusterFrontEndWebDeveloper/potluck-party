@@ -39,3 +39,18 @@ const addToList = function (guest) {
   listItem.innerText = guest;
   guestList.append(listItem);
 };
+
+//Limit the number attending
+const updateGuestCount = function () {
+  let guests = document.querySelectorAll(".guest-list li");
+  guestCount.innerText = guests.length;
+  // console.log(guestCount);
+  // limiter follows
+  if (guests.length === 8) {
+    // Once 8 reached, change the below properties
+    addGuestButton.classList.add("hide");
+    guestInputLabel.classList.add("hide");
+    guestInputLabel.classList.add("hide");
+    guestFull.classList.remove("hide");
+  }
+};
