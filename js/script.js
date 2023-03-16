@@ -50,7 +50,7 @@ const updateGuestCount = function () {
     // Once 8 reached, change the below properties
     addGuestButton.classList.add("hide");
     guestInputLabel.classList.add("hide");
-    guestInputLabel.classList.add("hide");
+    guestInput.classList.add("hide");
     guestFull.classList.remove("hide");
   }
 };
