@@ -14,3 +14,15 @@ const guestFull = document.querySelector(".alert");
 const assignButton = document.querySelector(".assign");
 // assign menu items
 const assignedItems = document.querySelector(".assigned-items");
+
+addGuestButton.addEventListener("click", function () {
+  const guest = guestInput.value;
+  // console.log(guest);
+  if (guest !== "") {
+    addToList(guest);
+    //console.log(guestList);
+  }
+  clearInput();
+
+  updateGuestCount();
+});
