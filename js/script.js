@@ -88,3 +88,10 @@ const assignItems = function () {
     potluckItems.splice(randomPotluckIndex, 1);
   }
 };
+
+// assign food items to each guest
+assignButton.addEventListener("click", function () {
+  assignItems();
+  assignButton.disabled = true;
+  assignButton.innerText = "See you at the Potluck!";
+});
