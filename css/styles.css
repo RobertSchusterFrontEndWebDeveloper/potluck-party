@@ -71,3 +71,37 @@ h1 {
 .add-guest input {
   padding: 0.25em;
 }
+
+.fa-envelope {
+  color: #ccc;
+}
+
+button {
+  align-self: center;
+  margin: 2em 0;
+  padding: 0.5em 1.5em;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: tomato;
+}
+
+button:hover {
+  filter: brightness(85%);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+input {
+  border: 1px solid #292929;
+}
+
+input:focus {
+  border: 2px solid;
+  background-color: mintcream;
+}
