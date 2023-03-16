@@ -47,3 +47,27 @@ header {
   width: 100%;
 }
 
+h1 {
+  font-size: 2.25em;
+  font-family: "Oswald", sans-serif;
+}
+
+.add-guest,
+.guest-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-guest {
+  margin-top: 1em;
+}
+
+.add-guest label {
+  margin-bottom: 1em;
+}
+
+.add-guest input {
+  padding: 0.25em;
+}
