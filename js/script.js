@@ -26,3 +26,16 @@ addGuestButton.addEventListener("click", function () {
 
   updateGuestCount();
 });
+
+// Clear input field
+const clearInput = function () {
+  guestInput.value = "";
+};
+
+// Adding guest to list
+const addToList = function (guest) {
+  // console.log(guest);
+  const listItem = document.createElement("li");
+  listItem.innerText = guest;
+  guestList.append(listItem);
+};
