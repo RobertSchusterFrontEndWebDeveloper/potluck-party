@@ -54,3 +54,26 @@ const updateGuestCount = function () {
     guestFull.classList.remove("hide");
   }
 };
+
+const assignItems = function () {
+  // list of items for guests to bring
+  let potluckItems = [
+    "Bologna Sandwich's",
+    "Dillpickel Chips",
+    "Lemonaide",
+    "Baked Beans",
+    "Fried Onion Rings",
+    "Burger Buns",
+    "Soft Drinks",
+    "Sweet and Sour Pickels",
+    "Potatoe Salad",
+    "3 Bean Salad",
+    "Macaroni Salad",
+    "Fruit Salad",
+    "Banana Creme Pie",
+    "Marbled Cake",
+    "Cookies - Variety",
+    "Orange cotton Candy",
+    "Cheesy Mashed Potatoes",
+    "Doritos"
+  ];
