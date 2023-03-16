@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 150%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: rgb(46, 42, 42);
+  font-size: 16px;
+  text-align: center;
+  background-image: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 3rem;
+}
+
