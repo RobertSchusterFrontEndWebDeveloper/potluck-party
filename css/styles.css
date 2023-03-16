@@ -129,3 +129,29 @@ input:focus {
 .assigned-items li {
   padding: 0.5em 0;
 }
+
+.items-list-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em 0;
+}
+.assigned-items {
+  width: 100%;
+  max-width: 400px;
+}
+
+footer {
+  width: 100%;
+  padding: 2em 0;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    justify-content: space-between;
+  }
+
+  .guest-list {
+    width: 70%;
+  }
+}
