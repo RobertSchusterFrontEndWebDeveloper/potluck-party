@@ -105,3 +105,27 @@ input:focus {
   border: 2px solid;
   background-color: mintcream;
 }
+
+.guest-list {
+  color: #292929;
+}
+
+.assigned-items li {
+  margin: 0.45em 0;
+  background-color: #fff;
+  color: tomato;
+  font-weight: bold;
+  color: 292929;
+}
+
+.guest-list,
+.assigned-items {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.guest-list li,
+.assigned-items li {
+  padding: 0.5em 0;
+}
