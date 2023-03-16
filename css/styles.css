@@ -21,3 +21,29 @@ body {
   margin-top: 3rem;
 }
 
+.attendees {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+
